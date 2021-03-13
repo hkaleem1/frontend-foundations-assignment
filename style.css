@@ -153,6 +153,7 @@ a {
       }
 
       .about img {
+        margin: 0 10px;
           width: 25%;
       }
 
