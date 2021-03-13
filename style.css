@@ -1,0 +1,298 @@
+body {
+    margin: 0 0;
+    background-image: url('images/background.jpg');
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    margin: 0 10px 0 0;
+  }
+  
+  header nav ul li:last-child a {
+    margin-right: 0;
+  }
+
+.intro, .about, .projects, .contact {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    background-color: rgb(202, 201, 201);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.projects img {
+    height: 320px;
+    object-fit: cover;
+}
+
+#about h3, #projects h3 {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+#about p {
+    margin-top: 0;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 120px;;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+a {
+    color: black;
+}
+
+@media all and (min-width: 800px) {
+    header {
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+      }
+    
+      header nav {
+        margin-top: 8px;
+      }
+
+      .intro, .about, .projects, .contact {
+          flex-direction: row;
+          justify-content: space-between;
+          
+      }
+
+      .projects {
+        flex-wrap: wrap;
+        margin: auto;
+      }
+
+      .projects img {
+          width: 75%;
+      }
+      
+      .projects .item {
+          margin-left: 75px;
+      }
+
+      .projects h4, .projects p {
+          margin-left: 15px;
+      }
+
+      .item {
+          flex: 1;
+      }
+
+      .item-double {
+          flex: 2;
+      }
+
+      img {
+          width: 50%;
+          margin: 10px 10px;
+      }
+
+      .about img {
+          width: 25%;
+      }
+
+      .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+
+      .contact .item:first-child {
+          margin: 0 50px 0 78px;
+      }
+
+      input, textarea {
+        width: 75%;
+    }
+
+    a:hover {   color: rgb(105, 104, 104);}
+}
+
+
+/* body {
+    background-color: slateblue;
+    margin: 0 0;
+}
+
+header,
+footer {
+  background-color: sienna;
+  padding-top: 1px;
+  /* padding: 1px 0 1px 20px; 
+}
+
+header {
+
+  /* display: flex;
+  /* justify-content: space-between; 
+  text-align: center;
+  align-items: center;
+}
+
+/* h1 {
+    margin: 0;
+
+} 
+
+header nav {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+header nav ul {
+  margin-top: 0;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+section {
+  margin-top: 25px;
+}
+
+.intro h3,
+p {
+  margin: 5px 5px 5px 25px;
+}
+
+.intro,
+.about,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+}
+
+.item-double {
+  flex: 2;
+}
+
+img {
+    padding: 0;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.about img {
+  width: 100%;
+  height: 200px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.projects p {
+  margin: 0 0 25px 0;
+}
+
+.projects h3 {
+  margin: 0;
+}
+
+.projects .item {
+  margin-left: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  height: 100px;
+}
+
+.contact p {
+  margin-left: 0;
+}
+
+@media all and (min-width: 800px) {
+    main {
+        margin: auto;
+        width: 50%;
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+      }
+} */
