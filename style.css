@@ -1,6 +1,7 @@
 body {
     margin: 0 0;
     background-image: url('images/background.jpg');
+    /* background-attachment: fixed; */
 }
 
 header {
@@ -40,13 +41,15 @@ header nav ul {
 .intro, .about, .projects, .contact {
     width: 75%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 30px; */
     display: flex;
     flex-direction: column;
 }
 
 #about {
     background-color: rgb(202, 201, 201);
+    padding: 1px 0 20px 0;
 }
 
 img {
@@ -159,14 +162,14 @@ a {
       }
 
       .contact .item:first-child {
-          margin: 0 50px 0 78px;
+          margin: 0 50px 0 85px;
       }
 
       input, textarea {
         width: 75%;
     }
 
-    a:hover {   color: rgb(105, 104, 104);}
+    a:hover {   color: rgb(105, 104, 104);  }
 }
 
 
